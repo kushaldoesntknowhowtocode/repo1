@@ -1,7 +1,7 @@
 import socket
 
 server_socket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-
+print("hello")
 host= socket.gethostname()
 port=12345
 
@@ -23,3 +23,4 @@ while True:
 
 
 client_socket.close()
+#HELLLO THIS IS A SERVER
